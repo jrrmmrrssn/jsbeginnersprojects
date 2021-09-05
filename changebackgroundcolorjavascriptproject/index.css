@@ -1,0 +1,33 @@
+body {/*set default background color and flex container*/
+    background-color: blue;
+    display: flex;
+}
+
+.background {/*set flex background*/
+    display: flex;
+}
+
+.button {/*set position of button, border style, default color, font size, and transition speed*/
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    border-radius: 4px;
+    border: 2px solid gray;
+    padding: 10px 24px;
+    font-size: 16px;
+    color: gray;
+    transition: 0.2s;
+    background-color: blue;
+    
+}
+
+.button:hover {/*set default button hover colors, shadow, opacity*/
+    background-color: gray;
+    color: white;
+    opacity: 1;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.button:active {/*set button offset to look like button press*/
+    transform: translateY(4px);
+}
